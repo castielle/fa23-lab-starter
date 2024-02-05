@@ -1,0 +1,20 @@
+OSTYPE='darwin23'
+BASH_VERSION='GNU bash, version 3.2.57(1)-release (x86_64-apple-darwin23)
+Copyright (C) 2007 Free Software Foundation, Inc.'
+SH_VERSION='GNU bash, version 3.2.57(1)-release (x86_64-apple-darwin23)
+Copyright (C) 2007 Free Software Foundation, Inc.'
+GIT_VERSION='git version 2.42.0'
+PYTHON3_VERSION='Python 3.11.5'
+PYTHON_VERSION='pyenv: python: command not found
+
+The `python' command exists in these Python versions:
+  2.7.18
+  3.8.6
+  3.10.4
+
+Note: See 'pyenv help global' for tips on allowing both
+      python2 and python3 to be found.'
+PY_VERSION='gen-debug.sh: line 13: py: command not found'
+JAVA_VERSION='java version "18" 2022-03-22
+Java(TM) SE Runtime Environment (build 18+36-2087)
+Java HotSpot(TM) 64-Bit Server VM (build 18+36-2087, mixed mode, sharing)'

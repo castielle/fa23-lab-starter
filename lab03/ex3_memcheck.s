@@ -22,8 +22,23 @@ loop:
     addi t0 t0 4
     # Check if we are done
     # If not, loop
-    bge t2 t1 loop
+    blt t1 t2 loop
 
+freemem:
+    # go to beginning of array
+    
+    # decrement the index
+    addi t1 t1 -1
+    #decrement the pointer
+    addi t0 t0 -4
+    # check if we are done
+    # if not, loop; if index!=0, loop freemem
+    bne t1 x0 freemem
+    # move pointer to argument register
+    mv a0 t0
+    # free memory at a0
+    jal free
+    
     # Exit the program
     li a0 0
     jal exit
